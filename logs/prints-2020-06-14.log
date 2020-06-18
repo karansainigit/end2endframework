@@ -1,0 +1,54 @@
+22:20:52.041 [TestNG-tests-1] INFO  framework.e2eproject.VerifyErrorMessageCart - Update button clicked
+22:20:52.637 [TestNG-tests-1] INFO  framework.e2eproject.VerifyErrorMessageCart - Error message successfully validated
+22:20:53.102 [TestNG-tests-3] INFO  framework.e2eproject.CompareMobile - Pop Up window title validated
+22:20:53.152 [TestNG-tests-3] INFO  framework.e2eproject.CompareMobile - Sony Xperia present in compare pop up page
+22:20:53.400 [TestNG-tests-1] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart is empty now
+22:20:53.469 [TestNG-tests-1] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart Empty message successfully validated
+22:22:31.102 [main] INFO  framework.e2eproject.ValidateHeader - Driver is initialized
+22:22:32.301 [main] INFO  framework.e2eproject.ValidateHeader - Navigated to HomePage
+22:22:32.526 [main] INFO  framework.e2eproject.ValidateHeader - Successfully validated Header section
+22:22:40.011 [main] INFO  framework.e2eproject.HomePage - Driver is initialized
+22:22:41.164 [main] INFO  framework.e2eproject.HomePage - Navigated to HomePage
+22:22:41.580 [main] INFO  framework.e2eproject.HomePage - Account link clicked
+22:22:42.060 [main] INFO  framework.e2eproject.HomePage - Login link clicked
+22:22:42.291 [main] INFO  framework.e2eproject.HomePage - Email address entered
+22:22:42.512 [main] INFO  framework.e2eproject.HomePage - Password entered
+22:22:43.706 [main] INFO  framework.e2eproject.HomePage - Login button clicked
+22:22:45.652 [main] INFO  framework.e2eproject.HomePage - Account link clicked
+22:22:46.150 [main] INFO  framework.e2eproject.HomePage - Login link clicked
+22:22:46.309 [main] INFO  framework.e2eproject.HomePage - Email address entered
+22:22:46.475 [main] INFO  framework.e2eproject.HomePage - Password entered
+22:22:47.165 [main] INFO  framework.e2eproject.HomePage - Login button clicked
+22:22:55.791 [main] INFO  framework.e2eproject.ValidateWelcomeMsg - Driver is initialized
+22:22:57.106 [main] INFO  framework.e2eproject.ValidateWelcomeMsg - Navigated to HomePage
+22:22:57.172 [main] INFO  framework.e2eproject.ValidateWelcomeMsg - Successfully validated Welcome Message
+22:22:57.288 [main] INFO  framework.e2eproject.ValidateWelcomeMsg - Icon is displayed
+22:22:57.573 [main] INFO  framework.e2eproject.ValidateWelcomeMsg - PayPal is displayed
+22:23:04.773 [main] INFO  framework.e2eproject.MobilePageSorting - Driver is initialized
+22:23:06.023 [main] INFO  framework.e2eproject.MobilePageSorting - Navigated to HomePage
+22:23:06.694 [main] INFO  framework.e2eproject.MobilePageSorting - Navigated to mobile page
+22:23:06.703 [main] INFO  framework.e2eproject.MobilePageSorting - Mobile Page title matches
+22:23:07.786 [main] INFO  framework.e2eproject.MobilePageSorting - Sorting by name selected
+22:23:08.057 [main] INFO  framework.e2eproject.MobilePageSorting - Products are sorted correctly
+22:23:15.062 [main] INFO  framework.e2eproject.ValidateCostofProduct - Driver is initialized
+22:23:16.362 [main] INFO  framework.e2eproject.ValidateCostofProduct - Navigated to HomePage
+22:23:17.246 [main] INFO  framework.e2eproject.ValidateCostofProduct - Navigated to mobile page
+22:23:18.439 [main] INFO  framework.e2eproject.ValidateCostofProduct - Sorting by name
+22:23:18.591 [main] INFO  framework.e2eproject.ValidateCostofProduct - Cost of Sony Xperia on List Page: $100.00
+22:23:20.304 [main] INFO  framework.e2eproject.ValidateCostofProduct - Navigated to Sony Xperia detail page
+22:23:20.387 [main] INFO  framework.e2eproject.ValidateCostofProduct - Cost of Sony Xperia on Detail Page: $100.00
+22:23:20.387 [main] INFO  framework.e2eproject.ValidateCostofProduct - Cost is same on both page
+22:23:27.737 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Driver is initialized
+22:23:29.062 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Navigated to HomePage
+22:23:29.871 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Navigated to Mobile page
+22:23:31.047 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Navigated to Shopping Cart page
+22:23:31.148 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Quantity cleared
+22:23:31.371 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Quantity updated to 1000
+22:23:32.108 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Update button clicked
+22:23:32.232 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Error message successfully validated
+22:23:32.760 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart is empty now
+22:23:32.835 [main] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart Empty message successfully validated
+22:23:39.868 [main] INFO  framework.e2eproject.CompareMobile - Driver is initialized
+22:23:41.154 [main] INFO  framework.e2eproject.CompareMobile - Navigated to HomePage
+22:23:41.957 [main] INFO  framework.e2eproject.CompareMobile - Navigated to Mobile page
+22:23:43.245 [main] INFO  framework.e2eproject.CompareMobile - Sony Xperia added to compare

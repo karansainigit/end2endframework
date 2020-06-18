@@ -1,0 +1,49 @@
+22:26:43.690 [TestNG-tests-3] INFO  framework.e2eproject.ValidateWelcomeMsg - Icon is displayed
+22:26:43.685 [TestNG-tests-1] INFO  framework.e2eproject.ValidateHeader - Successfully validated Header section
+22:26:43.730 [TestNG-tests-3] INFO  framework.e2eproject.ValidateWelcomeMsg - PayPal is displayed
+22:26:43.888 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Account link clicked
+22:26:44.142 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Login link clicked
+22:26:44.213 [TestNG-tests-4] INFO  framework.e2eproject.MobilePageSorting - Navigated to mobile page
+22:26:44.225 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Email address entered
+22:26:44.242 [TestNG-tests-4] INFO  framework.e2eproject.MobilePageSorting - Mobile Page title matches
+22:26:44.283 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Navigated to mobile page
+22:26:44.310 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Password entered
+22:26:44.726 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Login button clicked
+22:26:44.730 [TestNG-tests-4] INFO  framework.e2eproject.MobilePageSorting - Sorting by name selected
+22:26:44.746 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Sorting by name
+22:26:44.781 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Cost of Sony Xperia on List Page: $100.00
+22:26:44.830 [TestNG-tests-4] INFO  framework.e2eproject.MobilePageSorting - Products are sorted correctly
+22:26:45.818 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Account link clicked
+22:26:46.032 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Login link clicked
+22:26:46.094 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Email address entered
+22:26:46.176 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Password entered
+22:26:46.325 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Navigated to Sony Xperia detail page
+22:26:46.403 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Cost of Sony Xperia on Detail Page: $100.00
+22:26:46.403 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Cost is same on both page
+22:26:46.590 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Login button clicked
+22:26:49.930 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Driver is initialized
+22:26:51.781 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Navigated to HomePage
+22:26:52.362 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Navigated to Mobile page
+22:26:53.670 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Navigated to Shopping Cart page
+22:26:53.710 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Quantity cleared
+22:26:53.759 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Quantity updated to 1000
+22:26:54.309 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Update button clicked
+22:26:54.327 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Error message successfully validated
+22:26:54.835 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart is empty now
+22:26:54.857 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart Empty message successfully validated
+22:31:40.237 [TestNG-tests-1] INFO  framework.e2eproject.ValidateHeader - Driver is initialized
+22:31:40.307 [TestNG-tests-4] INFO  framework.e2eproject.MobilePageSorting - Driver is initialized
+22:31:40.349 [TestNG-tests-3] INFO  framework.e2eproject.ValidateWelcomeMsg - Driver is initialized
+22:31:40.415 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Driver is initialized
+22:31:40.507 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Driver is initialized
+22:31:41.469 [TestNG-tests-1] INFO  framework.e2eproject.ValidateHeader - Navigated to HomePage
+22:31:41.614 [TestNG-tests-4] INFO  framework.e2eproject.MobilePageSorting - Navigated to HomePage
+22:31:41.658 [TestNG-tests-3] INFO  framework.e2eproject.ValidateWelcomeMsg - Navigated to HomePage
+22:31:41.769 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Navigated to HomePage
+22:31:41.801 [TestNG-tests-3] INFO  framework.e2eproject.ValidateWelcomeMsg - Successfully validated Welcome Message
+22:31:41.815 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Navigated to HomePage
+22:31:41.875 [TestNG-tests-1] INFO  framework.e2eproject.ValidateHeader - Successfully validated Header section
+22:31:42.082 [TestNG-tests-3] INFO  framework.e2eproject.ValidateWelcomeMsg - Icon is displayed
+22:31:42.357 [TestNG-tests-3] INFO  framework.e2eproject.ValidateWelcomeMsg - PayPal is displayed
+22:31:42.676 [TestNG-tests-2] INFO  framework.e2eproject.HomePage - Account link clicked
+22:31:42.744 [TestNG-tests-5] INFO  framework.e2eproject.ValidateCostofProduct - Navigated to mobile page
