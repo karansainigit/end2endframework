@@ -1,6 +1,8 @@
 package framework.e2eproject;
 
 import java.io.IOException;
+import java.util.Iterator;
+import java.util.Set;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
@@ -15,7 +17,9 @@ import pageobjects.CreateAccountPage;
 import pageobjects.LandingPage;
 import pageobjects.LoginPage;
 import pageobjects.MyAccountPage;
+import pageobjects.MyOrdersPage;
 import pageobjects.MyWishListPage;
+import pageobjects.OrderDetailsPage;
 import pageobjects.PlaceOrderPage;
 import pageobjects.ShoppingCartPage;
 import pageobjects.TVPage;
@@ -31,6 +35,7 @@ public class CreateAccountShareWishlist extends Base {
 	String email = "emailaddress" + (int)(Math.random()*((10000-1)+1))+1 + "@gmail.com";
 	String password = "password" + Math.random() * (100 - 1) + 5;
 	String wlemail = "emailaddress" + (int)(Math.random()*((10000-1)+1))+1 + "@yahoo.com";
+	String orderNumber;
 	LandingPage lp;
 	LoginPage logp;
 	CreateAccountPage cap;
@@ -41,6 +46,8 @@ public class CreateAccountShareWishlist extends Base {
 	ShoppingCartPage sc;
 	CheckoutPage co;
 	PlaceOrderPage po;
+	MyOrdersPage op;
+	OrderDetailsPage od;
 	
 	@BeforeTest
 	public void initializeBrowser() throws IOException {
@@ -183,6 +190,36 @@ public class CreateAccountShareWishlist extends Base {
 		
 		Assert.assertTrue(po.orderNumber().isDisplayed());
 		log.info("Order Number: " + po.orderNumber().getText());
+		orderNumber = po.orderNumber().getText();
+	}
+	
+	@Test
+	public void verifySavePreviouslyPlacedOrder() {
+		po.accountLink().click();
+		log.info("Account link clicked");
+		
+		ap = po.myAccountlink();
+		log.info("My Account link clicked and navigated to My Account page");
+		
+		op = ap.myOrders();
+		log.info("My Orders link clicked and navigated to My Orders page");
+		
+		od = op.viewOrder();
+		log.info("View Order clicked and navigated to Order Details page");
+		
+		Assert.assertTrue(od.orderStatus().getText().contains(orderNumber));
+		Assert.assertTrue(od.orderStatus().getText().contains("PENDING"));
+		log.info("Order Number Verified and Status is verified as Pending");
+		
+		od.printOrder().click();
+		log.info("Print Order clicked");
+		
+		Set<String> wh = driver.getWindowHandles();
+		Iterator<String> ids = wh.iterator();
+		ids.next();
+		
+		driver.switchTo().window(ids.next());
+		Assert.assertTrue(driver.getTitle().contains("Print"));
 	}
 	
 	@AfterTest

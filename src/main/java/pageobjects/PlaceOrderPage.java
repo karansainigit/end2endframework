@@ -27,4 +27,19 @@ public class PlaceOrderPage {
 	public WebElement orderNumber() {
 		return orderNumber;
 	}
+	
+	@FindBy(xpath="(//span[text()='Account'])[1]")
+	private WebElement accountLink;
+	
+	public WebElement accountLink() {
+		return accountLink;
+	}
+	
+	@FindBy(css="div[id='header-account'] a[title='My Account']")
+	private WebElement myAccountlink;
+	
+	public MyAccountPage myAccountlink() {
+		myAccountlink.click();
+		return new MyAccountPage(driver);
+	}
 }

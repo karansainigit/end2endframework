@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Selenium WebDriver with Java\Projects\e2eproject\testng.xml</span>
+                    <span>C:\Selenium WebDriver with Java\Projects\Framework\end2endframework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,22 +112,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="framework.e2eproject.ValidateWelcomeMsg" class="method navigator-link" hash-for-method="validateIconOnPage">validateIconOnPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="framework.e2eproject.ValidateWelcomeMsg" class="method navigator-link" hash-for-method="validatePayPal">validatePayPal</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="framework.e2eproject.ValidateWelcomeMsg" class="method navigator-link" hash-for-method="validateWelcomeMsg">validateWelcomeMsg</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="framework.e2eproject.CreateAccountShareWishlist" class="method navigator-link" hash-for-method="verifyPurchaseUsingRegisteredEmail">verifyPurchaseUsingRegisteredEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="framework.e2eproject.CreateAccountShareWishlist" class="method navigator-link" hash-for-method="verifySavePreviouslyPlacedOrder">verifySavePreviouslyPlacedOrder</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -142,35 +132,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">framework.e2eproject.ValidateWelcomeMsg</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateIconOnPage">
-                  </a> <!-- validateIconOnPage -->
-                  <span class="method-name">validateIconOnPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validatePayPal">
-                  </a> <!-- validatePayPal -->
-                  <span class="method-name">validatePayPal</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateWelcomeMsg">
-                  </a> <!-- validateWelcomeMsg -->
-                  <span class="method-name">validateWelcomeMsg</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -189,6 +150,13 @@
                   <a name="verifyPurchaseUsingRegisteredEmail">
                   </a> <!-- verifyPurchaseUsingRegisteredEmail -->
                   <span class="method-name">verifyPurchaseUsingRegisteredEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySavePreviouslyPlacedOrder">
+                  </a> <!-- verifySavePreviouslyPlacedOrder -->
+                  <span class="method-name">verifySavePreviouslyPlacedOrder</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -211,52 +179,52 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Selenium WebDriver with Java\Projects\e2eproject\testng.xml</span>
+            <span class="header-content">C:\Selenium WebDriver with Java\Projects\Framework\end2endframework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;framework.e2eproject.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;ValidateHeader&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ValidateHeader&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.ValidateHeader&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ValidateHeader --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;ValidatingLogin&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ValidatingLogin&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.HomePage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ValidatingLogin --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;ValidateWelcomeMsg&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ValidateWelcomeMsg&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.ValidateWelcomeMsg&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ValidateWelcomeMsg --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;MobilePageSorting&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;MobilePageSorting&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.MobilePageSorting&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- MobilePageSorting --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;ValidateCostofProduct&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ValidateCostofProduct&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.ValidateCostofProduct&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ValidateCostofProduct --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;VerifyErrorMessageCart&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;VerifyErrorMessageCart&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.VerifyErrorMessageCart&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- VerifyErrorMessageCart --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;CompareMobile&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;CompareMobile&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.CompareMobile&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- CompareMobile --&gt;
-  &lt;test thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;CreateAccountShareWishlist&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;CreateAccountShareWishlist&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;framework.e2eproject.CreateAccountShareWishlist&quot;/&gt;
     &lt;/classes&gt;
@@ -319,36 +287,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'creatingAccountAndSharingWishList')
 data.setCell(0, 2, 'framework.e2eproject.CreateAccountShareWishlist')
-data.setCell(0, 3, 9214);
+data.setCell(0, 3, 8344);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyPurchaseUsingRegisteredEmail')
 data.setCell(1, 2, 'framework.e2eproject.CreateAccountShareWishlist')
-data.setCell(1, 3, 6597);
+data.setCell(1, 3, 5305);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateHeader')
-data.setCell(2, 2, 'framework.e2eproject.ValidateHeader')
-data.setCell(2, 3, 215);
+data.setCell(2, 1, 'verifySavePreviouslyPlacedOrder')
+data.setCell(2, 2, 'framework.e2eproject.CreateAccountShareWishlist')
+data.setCell(2, 3, 4664);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateWelcomeMsg')
-data.setCell(3, 2, 'framework.e2eproject.ValidateWelcomeMsg')
-data.setCell(3, 3, 163);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateIconOnPage')
-data.setCell(4, 2, 'framework.e2eproject.ValidateWelcomeMsg')
-data.setCell(4, 3, 126);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validatePayPal')
-data.setCell(5, 2, 'framework.e2eproject.ValidateWelcomeMsg')
-data.setCell(5, 3, 100);
+data.setCell(3, 1, 'validateHeader')
+data.setCell(3, 2, 'framework.e2eproject.ValidateHeader')
+data.setCell(3, 3, 213);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -374,7 +334,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.MobilePageSorting</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">framework.e2eproject.ValidateCostofProduct</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
                 <span class="method-start">0 ms</span>
@@ -384,6 +344,13 @@ return data;
               <div class="chronological-class-name">framework.e2eproject.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.MobilePageSorting</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeBrowser</span>
                 <span class="method-start">3 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
@@ -391,167 +358,167 @@ return data;
               <div class="chronological-class-name">framework.e2eproject.ValidateWelcomeMsg</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
-                <span class="method-start">3 ms</span>
+                <span class="method-start">4 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.ValidateHeader</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
-                <span class="method-start">7 ms</span>
+                <span class="method-start">6 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.MobilePageSorting</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateMobileSorting</span>
-                <span class="method-start">8272 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.HomePage</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">basePageNavigation(email@gmail.com, password123)</span>
-                <span class="method-start">8272 ms</span>
+                <span class="method-start">7858 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.ValidateHeader</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateHeader</span>
-                <span class="method-start">8272 ms</span>
+                <span class="method-start">7994 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.ValidateWelcomeMsg</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validateWelcomeMsg</span>
-                <span class="method-start">8295 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateIconOnPage</span>
-                <span class="method-start">8476 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.ValidateHeader</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">quittingBrowser</span>
-                <span class="method-start">8492 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.ValidateWelcomeMsg</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">validatePayPal</span>
-                <span class="method-start">8611 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">quittingBrowser</span>
-                <span class="method-start">8719 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.ValidateCostofProduct</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initializeBrowser</span>
-                <span class="method-start">10731 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.VerifyErrorMessageCart</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initializeBrowser</span>
-                <span class="method-start">10749 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.MobilePageSorting</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">quittingBrowser</span>
-                <span class="method-start">12481 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.CompareMobile</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initializeBrowser</span>
-                <span class="method-start">13999 ms</span>
-              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.HomePage</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">basePageNavigation(email@yahoo.com, password456)</span>
-                <span class="method-start">14217 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">quittingBrowser</span>
-                <span class="method-start">18152 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.VerifyErrorMessageCart</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyErrorMsgCart</span>
-                <span class="method-start">18986 ms</span>
+                <span class="method-name">basePageNavigation(email@gmail.com, password123)</span>
+                <span class="method-start">8049 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.ValidateCostofProduct</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">validateCostofProduct</span>
-                <span class="method-start">19043 ms</span>
+                <span class="method-start">8212 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.ValidateHeader</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quittingBrowser</span>
+                <span class="method-start">8225 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.ValidateWelcomeMsg</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateWelcomeMsg</span>
+                <span class="method-start">8392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateIconOnPage</span>
+                <span class="method-start">8534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validatePayPal</span>
+                <span class="method-start">8863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quittingBrowser</span>
+                <span class="method-start">10141 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.VerifyErrorMessageCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeBrowser</span>
+                <span class="method-start">11285 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.CompareMobile</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeBrowser</span>
+                <span class="method-start">11430 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.MobilePageSorting</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quittingBrowser</span>
+                <span class="method-start">11491 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.CreateAccountShareWishlist</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initializeBrowser</span>
-                <span class="method-start">19719 ms</span>
+                <span class="method-start">12609 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">framework.e2eproject.CompareMobile</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">compareMobile</span>
-                <span class="method-start">21068 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.ValidateCostofProduct</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quittingBrowser</span>
-                <span class="method-start">23647 ms</span>
+                <span class="method-start">13650 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">basePageNavigation(email@yahoo.com, password456)</span>
+                <span class="method-start">16172 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.VerifyErrorMessageCart</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">quittingBrowser</span>
-                <span class="method-start">26450 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">verifyErrorMsgCart</span>
+                <span class="method-start">18820 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.CompareMobile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">compareMobile</span>
+                <span class="method-start">19133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quittingBrowser</span>
-                <span class="method-start">27286 ms</span>
+                <span class="method-start">19874 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">framework.e2eproject.CreateAccountShareWishlist</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">creatingAccountAndSharingWishList</span>
-                <span class="method-start">27497 ms</span>
+                <span class="method-start">20521 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.CompareMobile</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quittingBrowser</span>
+                <span class="method-start">25022 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.VerifyErrorMessageCart</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quittingBrowser</span>
+                <span class="method-start">25312 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">framework.e2eproject.CreateAccountShareWishlist</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyPurchaseUsingRegisteredEmail</span>
-                <span class="method-start">36712 ms</span>
+                <span class="method-start">28866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySavePreviouslyPlacedOrder</span>
+                <span class="method-start">34172 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">quittingBrowser</span>
-                <span class="method-start">43311 ms</span>
+                <span class="method-start">38837 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

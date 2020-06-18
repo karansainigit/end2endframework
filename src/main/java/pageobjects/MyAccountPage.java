@@ -29,4 +29,12 @@ public class MyAccountPage {
 		return new TVPage(driver);
 	}
 	
+	@FindBy(xpath="//a[text()='My Orders']")
+	private WebElement myOrders;
+	
+	public MyOrdersPage myOrders() {
+		myOrders.click();
+		return new MyOrdersPage(driver);
+	}
+	
 }

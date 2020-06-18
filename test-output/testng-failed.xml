@@ -7,7 +7,7 @@
         <methods>
           <include name="quittingBrowser"/>
           <include name="initializeBrowser"/>
-          <include name="verifyPurchaseUsingRegisteredEmail"/>
+          <include name="verifySavePreviouslyPlacedOrder"/>
         </methods>
       </class> <!-- framework.e2eproject.CreateAccountShareWishlist -->
     </classes>

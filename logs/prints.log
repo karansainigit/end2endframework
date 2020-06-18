@@ -1,8 +1,1 @@
-23:39:38.757 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Shipping Rate Verified
-23:39:38.949 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Shipping Method selected
-23:39:39.278 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Check/Money Order selected
-23:39:39.445 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Payment Information Selected
-23:39:39.720 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Grand Total Verified
-23:39:39.870 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Placed
-23:39:40.511 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Successfully Placed
-23:39:40.621 [TestNG-tests-2] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Number: 100012327
+22:48:00.573 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Print Order clicked
