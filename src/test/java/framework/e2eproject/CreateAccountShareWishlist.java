@@ -58,7 +58,7 @@ public class CreateAccountShareWishlist extends Base {
 		log.info("Navigated to HomePage");
 	}
 	
-	@Test
+	@Test (priority = 1)
 	public void creatingAccountAndSharingWishList() throws InterruptedException {
 		lp = new LandingPage(driver);
 		
@@ -132,7 +132,7 @@ public class CreateAccountShareWishlist extends Base {
 		}
 	}
 	
-	@Test
+	@Test(priority = 2)
 	public void verifyPurchaseUsingRegisteredEmail() {
 		sc = wl.addToCart();
 		log.info("Product added to cart and Shopping Cart page opened");
@@ -193,7 +193,7 @@ public class CreateAccountShareWishlist extends Base {
 		orderNumber = po.orderNumber().getText();
 	}
 	
-	@Test
+	@Test(priority = 3)
 	public void verifySavePreviouslyPlacedOrder() {
 		po.accountLink().click();
 		log.info("Account link clicked");
@@ -216,10 +216,67 @@ public class CreateAccountShareWishlist extends Base {
 		
 		Set<String> wh = driver.getWindowHandles();
 		Iterator<String> ids = wh.iterator();
-		ids.next();
+		String pWindows = ids.next();
 		
 		driver.switchTo().window(ids.next());
 		Assert.assertTrue(driver.getTitle().contains("Print"));
+		log.info("Print page title verified");
+		
+		driver.close();
+		log.info("Print Page closed");
+		
+		driver.switchTo().window(pWindows);
+	}
+	
+	@Test(priority = 4)
+	public void verifyReOrderProduct() {
+		sc = od.reOrder();
+		log.info("Reorder clicked and shopping cart page opened");
+		
+		sc.quantity().clear();
+		log.info("Clearing Quantity");
+		sc.quantity().sendKeys("10");
+		log.info("Updating Quantity number");
+		
+		sc.updateQty().click();
+		log.info("Updating Quantity");
+		
+		Assert.assertEquals(sc.grandTotal().getText(), "$7,000.00");
+		log.info("Grand Total verified");
+		
+		co = sc.proceedCheckout();
+		log.info("Proceeded to Check Out Page");
+		
+		if (co.checkingPopUp().size() > 0) {
+			driver.switchTo().frame(co.popUp());
+			co.closePopUp().click();
+			driver.switchTo().defaultContent();
+		}
+		
+		co.billingInfoContinue().click();
+		log.info("Billing Information Entered");
+		
+		co.shippingMethodContinue().click();
+		log.info("Shipping Method selected");
+		
+		co.checkPayment().click();
+		log.info("Check/Money Order selected");
+		
+		co.paymentInfoContinue().click();
+		log.info("Payment Information Selected");
+		
+		Assert.assertEquals(co.grandTotal().getText(), "$7,050.00");
+		log.info("Grand Total Verified");
+		
+		po = co.placeOrder();
+		log.info("Order Placed");
+		
+		Assert.assertTrue(po.orderSuccessMsg().getText().contains("THANK YOU"));
+		log.info("Order Successfully Placed");
+		
+		Assert.assertTrue(po.orderNumber().isDisplayed());
+		log.info("Order Number: " + po.orderNumber().getText());
+		orderNumber = po.orderNumber().getText();
 	}
 	
 	@AfterTest

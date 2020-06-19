@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-17T22:47:35 PDT" name="Suite" finished-at="2020-06-17T22:48:04 PDT" duration-ms="28281">
+  <suite started-at="2020-06-19T00:11:21 PDT" name="Suite" finished-at="2020-06-19T00:12:08 PDT" duration-ms="47141">
     <groups>
     </groups>
-    <test started-at="2020-06-17T22:47:35 PDT" name="CreateAccountShareWishlist" finished-at="2020-06-17T22:48:04 PDT" duration-ms="28281">
+    <test started-at="2020-06-19T00:11:21 PDT" name="CreateAccountShareWishlist" finished-at="2020-06-19T00:12:08 PDT" duration-ms="47141">
       <class name="framework.e2eproject.CreateAccountShareWishlist">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:framework.e2eproject.CreateAccountShareWishlist@4c550889]" started-at="2020-06-17T22:47:35 PDT" name="initializeBrowser" finished-at="2020-06-17T22:47:43 PDT" duration-ms="7520" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:framework.e2eproject.CreateAccountShareWishlist@101639ae]" started-at="2020-06-19T00:11:21 PDT" name="initializeBrowser" finished-at="2020-06-19T00:11:51 PDT" duration-ms="29313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="creatingAccountAndSharingWishList()[pri:0, instance:framework.e2eproject.CreateAccountShareWishlist@4c550889]" started-at="2020-06-17T22:47:43 PDT" name="creatingAccountAndSharingWishList" finished-at="2020-06-17T22:47:50 PDT" duration-ms="6781" status="PASS">
+        <test-method signature="creatingAccountAndSharingWishList()[pri:1, instance:framework.e2eproject.CreateAccountShareWishlist@101639ae]" started-at="2020-06-19T00:11:51 PDT" name="creatingAccountAndSharingWishList" finished-at="2020-06-19T00:11:56 PDT" duration-ms="5305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creatingAccountAndSharingWishList -->
-        <test-method signature="verifyPurchaseUsingRegisteredEmail()[pri:0, instance:framework.e2eproject.CreateAccountShareWishlist@4c550889]" started-at="2020-06-17T22:47:50 PDT" name="verifyPurchaseUsingRegisteredEmail" finished-at="2020-06-17T22:47:57 PDT" duration-ms="7761" status="PASS">
+        <test-method signature="verifyPurchaseUsingRegisteredEmail()[pri:2, instance:framework.e2eproject.CreateAccountShareWishlist@101639ae]" started-at="2020-06-19T00:11:56 PDT" name="verifyPurchaseUsingRegisteredEmail" finished-at="2020-06-19T00:12:00 PDT" duration-ms="3807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurchaseUsingRegisteredEmail -->
-        <test-method signature="verifySavePreviouslyPlacedOrder()[pri:0, instance:framework.e2eproject.CreateAccountShareWishlist@4c550889]" started-at="2020-06-17T22:47:57 PDT" name="verifySavePreviouslyPlacedOrder" finished-at="2020-06-17T22:48:03 PDT" duration-ms="5119" status="PASS">
+        <test-method signature="verifySavePreviouslyPlacedOrder()[pri:3, instance:framework.e2eproject.CreateAccountShareWishlist@101639ae]" started-at="2020-06-19T00:12:00 PDT" name="verifySavePreviouslyPlacedOrder" finished-at="2020-06-19T00:12:03 PDT" duration-ms="3437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySavePreviouslyPlacedOrder -->
-        <test-method is-config="true" signature="quittingBrowser()[pri:0, instance:framework.e2eproject.CreateAccountShareWishlist@4c550889]" started-at="2020-06-17T22:48:03 PDT" name="quittingBrowser" finished-at="2020-06-17T22:48:04 PDT" duration-ms="1095" status="PASS">
+        <test-method signature="verifyReOrderProduct()[pri:4, instance:framework.e2eproject.CreateAccountShareWishlist@101639ae]" started-at="2020-06-19T00:12:03 PDT" name="verifyReOrderProduct" finished-at="2020-06-19T00:12:08 PDT" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReOrderProduct -->
+        <test-method is-config="true" signature="quittingBrowser()[pri:0, instance:framework.e2eproject.CreateAccountShareWishlist@101639ae]" started-at="2020-06-19T00:12:08 PDT" name="quittingBrowser" finished-at="2020-06-19T00:12:08 PDT" duration-ms="971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quittingBrowser -->

@@ -56,4 +56,11 @@ public class ShoppingCartPage {
 		proceedCheckout.click();
 		return new CheckoutPage(driver);
 	}
+	
+	@FindBy(xpath="//strong //span[@class='price']")
+	private WebElement grandTotal;
+	
+	public WebElement grandTotal() {
+		return grandTotal;
+	}
 }

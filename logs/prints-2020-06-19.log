@@ -1,0 +1,46 @@
+00:11:50.614 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart is empty now
+00:11:50.686 [TestNG-tests-3] INFO  framework.e2eproject.VerifyErrorMessageCart - Cart Empty message successfully validated
+00:11:51.158 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Navigated to HomePage
+00:11:51.241 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Account is clicked
+00:11:51.377 [TestNG-tests-1] INFO  framework.e2eproject.CompareMobile - Iphone added to compare
+00:11:51.519 [TestNG-tests-1] INFO  framework.e2eproject.CompareMobile - Compare button clicked
+00:11:51.532 [TestNG-tests-1] INFO  framework.e2eproject.CompareMobile - Switched to pop up window
+00:11:51.794 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - MyAccount is clicked and Login Page is opened
+00:11:52.153 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Create Account Page is opened
+00:11:52.226 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - First Name entered
+00:11:52.316 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Last Name entered
+00:11:52.896 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Email entered
+00:11:53.205 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Password entered
+00:11:53.342 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Confirm Password entered
+00:11:53.546 [TestNG-tests-1] INFO  framework.e2eproject.CompareMobile - Pop Up window title validated
+00:11:53.574 [TestNG-tests-1] INFO  framework.e2eproject.CompareMobile - Sony Xperia present in compare pop up page
+00:11:53.594 [TestNG-tests-1] INFO  framework.e2eproject.CompareMobile - iPhone present in compare pop up page
+00:11:53.644 [TestNG-tests-1] INFO  framework.e2eproject.CompareMobile - Compare Pop Up closed
+00:11:54.046 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Successfully Registered
+00:11:54.069 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Registration verified
+00:11:54.632 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - TV Page opened
+00:11:55.217 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - My Wish List Page opened
+00:11:55.241 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Product added to Wish List
+00:11:55.700 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Share Wish List page opened
+00:11:55.843 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Email entered
+00:11:55.940 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Message entered
+00:11:56.417 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Shared WishList button clicked
+00:11:56.465 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Wish List shared successfully
+00:11:57.094 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Product added to cart and Shopping Cart page opened
+00:11:57.827 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Proceeded to Check Out Page
+00:11:57.935 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Address Entered
+00:11:58.046 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - City Entered
+00:11:58.138 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - State selected
+00:11:58.229 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Zip Entered
+00:11:58.286 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Country selected
+00:11:58.359 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Telephone Entered
+00:11:58.570 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Billing Information Entered
+00:11:58.933 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Shipping Rate Verified
+00:11:58.980 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Shipping Method selected
+00:11:59.262 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Check/Money Order selected
+00:11:59.314 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Payment Information Selected
+00:11:59.562 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Grand Total Verified
+00:11:59.614 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Placed
+00:12:00.204 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Successfully Placed
+00:12:00.261 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Number: 100012386
+00:12:00.318 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Account link clicked

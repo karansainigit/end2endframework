@@ -1,0 +1,49 @@
+23:55:50.352 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Email entered
+23:55:50.436 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Message entered
+23:55:51.061 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Shared WishList button clicked
+23:55:51.086 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Wish List shared successfully
+23:55:51.797 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Product added to cart and Shopping Cart page opened
+23:55:52.793 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Proceeded to Check Out Page
+23:55:52.856 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Address Entered
+23:55:52.936 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - City Entered
+23:55:53.033 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - State selected
+23:55:53.094 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Zip Entered
+23:55:53.145 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Country selected
+23:55:53.216 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Telephone Entered
+23:55:54.359 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Billing Information Entered
+23:55:54.733 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Shipping Rate Verified
+23:55:54.787 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Shipping Method selected
+23:55:55.169 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Check/Money Order selected
+23:55:55.222 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Payment Information Selected
+23:55:55.464 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Grand Total Verified
+23:55:55.506 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Placed
+23:55:56.095 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Successfully Placed
+23:55:56.147 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Number: 100012378
+23:55:56.211 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Account link clicked
+23:55:56.592 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - My Account link clicked and navigated to My Account page
+23:55:57.275 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - My Orders link clicked and navigated to My Orders page
+23:55:57.900 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - View Order clicked and navigated to Order Details page
+23:55:57.935 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Number Verified and Status is verified as Pending
+23:55:58.008 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Print Order clicked
+23:56:00.033 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Print page title verified
+23:56:00.062 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Print Page closed
+23:58:13.882 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Driver is initialized
+23:58:15.230 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Navigated to HomePage
+23:58:15.342 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Account is clicked
+23:58:15.865 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - MyAccount is clicked and Login Page is opened
+23:58:16.211 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Create Account Page is opened
+23:58:16.263 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - First Name entered
+23:58:16.331 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Last Name entered
+23:58:16.420 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Email entered
+23:58:16.503 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Password entered
+23:58:16.585 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Confirm Password entered
+23:58:17.040 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Successfully Registered
+23:58:17.210 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Registration verified
+23:58:17.760 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - TV Page opened
+23:58:18.630 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - My Wish List Page opened
+23:58:18.704 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Product added to Wish List
+23:58:19.182 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Share Wish List page opened
+23:58:19.282 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Email entered
+23:58:19.348 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Message entered
+23:58:19.888 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Shared WishList button clicked
+23:58:19.981 [main] INFO  framework.e2eproject.CreateAccountShareWishlist - Wish List shared successfully

@@ -1,1 +1,21 @@
-22:48:00.573 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Print Order clicked
+00:12:00.705 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - My Account link clicked and navigated to My Account page
+00:12:01.061 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - My Orders link clicked and navigated to My Orders page
+00:12:01.463 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - View Order clicked and navigated to Order Details page
+00:12:01.523 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Number Verified and Status is verified as Pending
+00:12:01.641 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Print Order clicked
+00:12:03.668 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Print page title verified
+00:12:03.703 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Print Page closed
+00:12:04.512 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Reorder clicked and shopping cart page opened
+00:12:04.565 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Clearing Quantity
+00:12:04.607 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Updating Quantity number
+00:12:05.118 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Updating Quantity
+00:12:05.153 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Grand Total verified
+00:12:05.538 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Proceeded to Check Out Page
+00:12:06.303 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Billing Information Entered
+00:12:06.688 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Shipping Method selected
+00:12:07.001 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Check/Money Order selected
+00:12:07.051 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Payment Information Selected
+00:12:07.305 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Grand Total Verified
+00:12:07.356 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Placed
+00:12:07.938 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Successfully Placed
+00:12:07.999 [TestNG-tests-4] INFO  framework.e2eproject.CreateAccountShareWishlist - Order Number: 100012387

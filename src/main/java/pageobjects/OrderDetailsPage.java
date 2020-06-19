@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class OrderDetailsPage {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
 	public OrderDetailsPage(WebDriver driver) {
 		this.driver = driver;
@@ -26,5 +26,13 @@ public class OrderDetailsPage {
 	
 	public WebElement printOrder() {
 		return printOrder;
+	}
+	
+	@FindBy(xpath="//a[contains(@href,'reorder')]")
+	private WebElement reOrder;
+	
+	public ShoppingCartPage reOrder() {
+		reOrder.click();
+		return new ShoppingCartPage(driver);
 	}
 }
